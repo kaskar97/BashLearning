@@ -1,0 +1,11 @@
+drwxr-xr-x  3 user  staff   96 Aug 19 19:05 Archive
+drwxr-xr-x  5 user  staff  160 Aug 18 23:58 Arena
+drwxr-xr-x  5 user  staff  160 Aug 19 00:56 Backup
+drwxr-xr-x  4 user  staff  128 Aug 19 19:05 Battlefield
+-rwxr-xr-x  1 user  staff  400 Aug 19 19:05 Level-five.sh
+-rwxr-xr-x  1 user  staff   51 Aug 19 00:56 Level-four.sh
+-rwxr-xr-x  1 user  staff   75 Aug 18 23:55 Level-one.sh
+-rwxr-xr-x  1 user  staff  288 Aug 20 00:26 Level-six.sh
+-rw-r--r--  1 user  staff  103 Aug 19 00:37 Level-three.sh
+-rw-r--r--  1 user  staff  128 Aug 19 00:08 Level-two.sh
+-rw-r--r--  1 user  staff    0 Aug 20 00:16 test.txt

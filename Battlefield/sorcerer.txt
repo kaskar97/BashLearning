@@ -1,0 +1,10 @@
+hello
+hello world
+apples
+banana
+cherry
+orange
+lemon
+strawberry
+milk
+egg
