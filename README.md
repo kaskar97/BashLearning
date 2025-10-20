@@ -21,6 +21,7 @@ ls
 ## Level 2: Variables and Loops
 
 Mission: Create a script that outputs the numbers 1 to 10, one number per line.
+
 Solution:
 ```bash
 #!/bin/bash
@@ -36,6 +37,7 @@ done
 ## Level 3: Conditional Statements
 
 Mission: Write a script that checks if a file named hero.txt exists in the Arena directory. If it does, print Hero found!; otherwise, print Hero missing!.
+
 Solution:
 ```bash
 #!/bin/bash
@@ -51,6 +53,7 @@ fi
 ## Level 4: File Manipulation
 
 Mission: Create a script that copies all .txt files from the Arena directory to a new directory called Backup.
+
 Solution:
 ```bash
 #!/bin/bash
@@ -70,6 +73,7 @@ Mission: Combine what you've learned! Write a script that:
 2. Inside Battlefield, create files named knight.txt, sorcerer.txt, and rogue.txt.
 3. Check if knight.txt exists; if it does, move it to a new directory called Archive.
 4. List the contents of both Battlefield and Archive.
+
 Solution:
 ```bash
 #!/bin/bash
@@ -98,6 +102,7 @@ ls Archive
 ## Level 6: Argument Parsing
 
 Mission: Write a script that accepts a filename as an argument and prints the number of lines in that file. If no filename is provided, display a message saying 'No file provided'.
+
 Solution:
 ```bash
 #!/bin/bash
@@ -120,6 +125,7 @@ fi
 ## Level 7: File Sorting Script
 
 Mission: Write a script that sorts all .txt files in a directory by their size, from smallest to largest, and displays the sorted list.
+
 Solution:
 ```bash
 directory=$1
@@ -136,6 +142,7 @@ find "$directory" -type f -name "*.txt" -exec ls -lh {} + | sort -k 5,5 -h | awk
 ## Level 8: Multi-File Searcher
 
 Mission: Create a script that searches for a specific word or phrase across all .log files in a directory and outputs the names of the files that contain the word or phrase.
+
 Solution:
 ```bash
 directory=$1
@@ -149,6 +156,7 @@ find "$directory" -type f -name "*.log" -exec grep -l "$word" {} +
 ## Level 9: Script to Monitor Directory Changes
 
 Mission: Write a script that monitors a directory for any changes (file creation, modification, or deletion) and logs the changes with a timestamp.
+
 Solution:
 ```bash
 #!/bin/bash
@@ -181,6 +189,7 @@ Mission: Write a script that:
 3. Generates a random number of lines (between 10 and 20) in each file.
 4. Sorts these files by their size and displays the list.
 5. Checks if any of the files contain the word 'Victory', and if found, moves the file to a directory called Victory_Archive.
+
 Solution:
 ```bash
 #!/bin/bash
